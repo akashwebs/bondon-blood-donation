@@ -18,9 +18,9 @@
 </head>
 
 <body>
-    <header>
+    <header id="own-container">
         <!-- ---------------menu----------------- -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+        <nav class="navbar navbar-expand-lg navbar-dark menu-bg-color">
             <div class="container">
                 <a class="navbar-brand" href="#">Navbar</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -76,7 +76,7 @@
         </nav>
         <!-- -------------------end manu bar-------------- -->
         <!-- start slider  -->
-        <section>
+        <section class="sliider">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -106,13 +106,49 @@
                 </button>
               </div>
         </section>
+        <!-- end slider secion -->
     </header>
     <main>
+        <!-- ------------serach filter and ads------------- -->
+        <section class=" py-4 my-4">
+           
+                        <div class="container">
+                            <div class="row">
+                                
+                                
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="counter green">
+                                        <div class="counter-icon"><i class="fa-solid fa-hand-holding-droplet"></i></div>
+                                        <h3>Total Blood Donner</h3>
+                                        <span class="counter-value">3500</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="counter green">
+                                        <div class="counter-icon"><i class="fa-solid fa-hand-holding-droplet"></i></div>
+                                        <h3>Got Help</h3>
+                                        <span class="counter-value">2054</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="counter green">
+                                        <div class="counter-icon"><i class="fa-solid fa-hand-holding-droplet"></i></div>
+                                        <h3>Total Distric</h3>
+                                        <span class="counter-value">64</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
+                   
+        </section>
     </main>
     <footer>
 
     </footer>
+    <!-- j query -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <!-- bootsttrap -->
     <script src="js/bootstrap.bundle.min.js"></script>
     <!-- custom css -->
     <script src="js/app.js"></script>
